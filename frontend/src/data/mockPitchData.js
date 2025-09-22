@@ -280,8 +280,8 @@ export const mockPitchData = {
       type: "investment",
       title: "Investment Opportunity",
       subtitle: "Partner with us to revolutionize the commercial roofing industry",
-      amount: "$3.5M",
-      returns: "25-30% IRR",
+      amount: "$1.0M",
+      returns: "400% ROI Year 1",
       benefits: [
         "Equity stake in rapidly growing company",
         "Board representation and strategic input",
