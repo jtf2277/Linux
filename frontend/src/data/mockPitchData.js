@@ -284,9 +284,52 @@ export const mockPitchData = {
     },
     {
       id: 10,
+      type: "coating_investment",
+      title: "Galaxy Coatings Development Investment",
+      subtitle: "Separate investment opportunity for proprietary coating technology",
+      amount: "$1.5M",
+      returns: "200-300% ROI",
+      timeline: "18-36 months",
+      revenueProjections: [
+        { year: 2, revenue: "$2.5M", profit: "$1.8M", description: "Initial coating sales launch" },
+        { year: 3, revenue: "$8.2M", profit: "$6.1M", description: "Market expansion and scaling" },
+        { year: 4, revenue: "$18.5M", profit: "$14.2M", description: "Full market penetration" }
+      ],
+      coatingRevenueStreams: [
+        {
+          name: "Direct Coating Sales",
+          description: "Galaxy brand coating materials to contractors",
+          percentage: "60%"
+        },
+        {
+          name: "Licensing & Patents",
+          description: "Technology licensing to other manufacturers",
+          percentage: "25%"
+        },
+        {
+          name: "Premium Installation Services",
+          description: "Specialized Galaxy coating application services",
+          percentage: "12%"
+        },
+        {
+          name: "Training & Certification",
+          description: "Contractor training and certification programs",
+          percentage: "3%"
+        }
+      ],
+      developmentMilestones: [
+        "Laboratory testing and formulation completion",
+        "Field testing and performance validation",
+        "Patent applications and IP protection",
+        "Manufacturing setup and supply chain",
+        "Market launch and brand development"
+      ]
+    },
+    {
+      id: 11,
       type: "investment",
-      title: "Investment Opportunity",
-      subtitle: "Partner with us to revolutionize the commercial roofing industry",
+      title: "Operations Investment Opportunity",
+      subtitle: "Partner with us to launch Galaxy Contracting operations",
       amount: "$1.0M",
       returns: "35-45% ROI Year 1",
       benefits: [
@@ -294,10 +337,9 @@ export const mockPitchData = {
         "Board representation and strategic input", 
         "Operations ROI within 6-12 months",
         "Future proprietary coating technology ownership",
-        "Coating R&D ROI expected in 18-36 months",
         "ESG impact through energy-efficient solutions",
         "Exit opportunities within 5-7 years",
-        "Tax advantages through R&D investments"
+        "Immediate market entry advantage"
       ]
     },
     {
