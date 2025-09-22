@@ -59,6 +59,8 @@ const PitchDeck = () => {
         return <FinancialsSlide data={slide} />;
       case "team":
         return <TeamSlide data={slide} />;
+      case "coating_investment":
+        return <CoatingInvestmentSlide data={slide} />;
       case "investment":
         return <InvestmentSlide data={slide} />;
       case "contact":
