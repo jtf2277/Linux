@@ -225,11 +225,11 @@ export const mockPitchData = {
         { year: 3, revenue: "$32.0M", profit: "$15.4M" }
       ],
       useOfFunds: [
-        { category: "Coating R&D & Development", percentage: "40%" },
-        { category: "Equipment & Technology", percentage: "25%" },
+        { category: "Roofing Equipment & Tools", percentage: "35%" },
+        { category: "Working Capital & Operations", percentage: "25%" },
         { category: "Marketing & Sales", percentage: "20%" },
-        { category: "Working Capital", percentage: "10%" },
-        { category: "Team Expansion", percentage: "5%" }
+        { category: "Team Expansion", percentage: "15%" },
+        { category: "Initial Coating R&D", percentage: "5%" }
       ]
     },
     {
