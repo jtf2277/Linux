@@ -45,7 +45,7 @@ export const mockPitchData = {
       id: 3,
       type: "solution",
       title: "Our Innovation: Advanced Roof Coatings",
-      description: "Galaxy Contracting LLC offers revolutionary roof coating technology that transforms existing roofs into highly efficient, long-lasting systems with minimal disruption.",
+      description: "Galaxy Contracting LLC is developing revolutionary roof coating technology that will transform existing roofs into highly efficient, long-lasting systems with minimal disruption. We're seeking investment to complete R&D and bring our proprietary coating line to market.",
       benefits: [
         {
           title: "Non-Intrusive Application",
