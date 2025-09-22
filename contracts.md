@@ -24,7 +24,20 @@
 - **Initial Revenue Focus**: 75% roofing installations, 15% maintenance, 7% consulting, 3% future coating sales
 - **Future Coating Revenue Streams**: 60% direct sales, 25% licensing, 12% premium services, 3% training
 - **Competitive Product**: SmartCoat Applications (current), Galaxy Coatings (in development)
-- **Total Slides**: 12 (now includes separate Galaxy Coatings Development Investment slide)
+- **Total Slides**: 12 
+- **Final Slide Order**: 
+  1. Hero/Company Overview
+  2. Problem Statement  
+  3. Solution Overview
+  4. Product Features
+  5. Market Opportunity
+  6. Business Model
+  7. Competitive Advantage
+  8. Financial Projections
+  9. Galaxy Coatings Development Investment
+  10. Operations Investment Opportunity
+  11. Leadership Team
+  12. Contact Information
 
 ## Current Mock Data (Frontend Only)
 Located in `/app/frontend/src/data/mockPitchData.js`:
