@@ -10,7 +10,7 @@ export const mockPitchData = {
       highlights: [
         { value: "85%", label: "Sun Reflectivity" },
         { value: "20 Years", label: "Warranty" },
-        { value: "50%", label: "Cost Savings" }
+        { value: "30-50%", label: "Cost Savings" }
       ]
     },
     {
