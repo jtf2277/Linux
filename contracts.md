@@ -6,17 +6,25 @@
 ## Updated Business Data (Per Client Request)
 - **CEO**: Jake Facer  
 - **Co-Founder**: Nate Schuette (CTO position open for hiring)
+- **Location**: Cleveland, Ohio
 - **Cost Savings**: 30-50% (vs traditional roofing)
 - **Average Project Value**: $500K - $1.5M
-- **Investment Required**: $1.0M (operations) + $1.5M (coating R&D)
-- **Revenue Projections**: 
+- **Investment Required**: 
+  - $1.0M (operations) - 35-45% ROI Year 1 (6-12 months)
+  - $1.5M (Galaxy coating R&D) - 200-300% ROI (18-36 months)
+- **Revenue Projections (Operations)**: 
   - Year 1: $10.0M revenue, $4.0M profit
   - Year 2: $18.5M revenue, $8.1M profit  
   - Year 3: $32.0M revenue, $15.4M profit
-- **ROI**: 35-45% Year 1 (operations), 200-300% (R&D, 18-36 months)
+- **Galaxy Coatings Revenue Projections**:
+  - Year 2: $2.5M revenue, $1.8M profit
+  - Year 3: $8.2M revenue, $6.1M profit
+  - Year 4: $18.5M revenue, $14.2M profit
 - **Contact**: Skcontractors2277@gmail.com, 440-694-2916
-- **Revenue Focus**: 75% roofing installations, 15% maintenance, future coating sales
-- **Team Status**: Key positions open for hiring (CTO, VP Operations, VP Sales, CFO, QA Head)
+- **Initial Revenue Focus**: 75% roofing installations, 15% maintenance, 7% consulting, 3% future coating sales
+- **Future Coating Revenue Streams**: 60% direct sales, 25% licensing, 12% premium services, 3% training
+- **Competitive Product**: SmartCoat Applications (current), Galaxy Coatings (in development)
+- **Total Slides**: 12 (now includes separate Galaxy Coatings Development Investment slide)
 
 ## Current Mock Data (Frontend Only)
 Located in `/app/frontend/src/data/mockPitchData.js`:
