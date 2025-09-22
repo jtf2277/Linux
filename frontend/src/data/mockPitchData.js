@@ -201,7 +201,7 @@ export const mockPitchData = {
           ]
         },
         {
-          name: "Galaxy Coatings",
+          name: "SmartCoat Applications",
           isUs: true,
           features: [
             { name: "20+ Year Warranty", available: true },
