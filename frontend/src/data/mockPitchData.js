@@ -343,10 +343,10 @@ export const mockPitchData = {
       ]
     },
     {
-      id: 11,
+      id: 12,
       type: "contact",
       title: "Let's Build the Future Together",
-      subtitle: "Contact our team to learn more about this investment opportunity",
+      subtitle: "Contact our team to learn more about these investment opportunities",
       email: "Skcontractors2277@gmail.com",
       phone: "440-694-2916",
       location: "Cleveland, Ohio"
