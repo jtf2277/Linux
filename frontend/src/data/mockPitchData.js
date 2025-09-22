@@ -142,7 +142,7 @@ export const mockPitchData = {
       subtitle: "Multiple revenue streams ensuring sustainable growth",
       revenueStreams: [
         {
-          name: "Roofing Installation Services",
+          name: "Roofing Installation Services (Initial)",
           description: "Primary revenue from traditional and coating installations",
           percentage: "75%"
         },
@@ -157,8 +157,8 @@ export const mockPitchData = {
           percentage: "7%"
         },
         {
-          name: "Future Coating Sales",
-          description: "Galaxy coating products (post-development)",
+          name: "Future Galaxy Coating Sales",
+          description: "Proprietary Galaxy coating products (post-development)",
           percentage: "3%"
         }
       ],
