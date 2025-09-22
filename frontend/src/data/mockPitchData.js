@@ -166,7 +166,7 @@ export const mockPitchData = {
         { label: "Gross Margin", value: "65%" },
         { label: "Customer Retention", value: "92%" },
         { label: "Installation Time", value: "3-5 days" },
-        { label: "Break-even Point", value: "18 months" }
+        { label: "Time to Initial ROI", value: "6 months" }
       ]
     },
     {
