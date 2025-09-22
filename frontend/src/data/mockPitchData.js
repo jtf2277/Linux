@@ -305,8 +305,8 @@ export const mockPitchData = {
       type: "contact",
       title: "Let's Build the Future Together",
       subtitle: "Contact our team to learn more about this investment opportunity",
-      email: "investors@galaxycontracting.com",
-      phone: "(555) 123-4567",
+      email: "Skcontractors2277@gmail.com",
+      phone: "440-694-2916",
       location: "Dallas, TX"
     }
   ]
