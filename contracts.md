@@ -5,7 +5,7 @@
 
 ## Updated Business Data (Per Client Request)
 - **CEO**: Jake Facer  
-- **CTO**: Nate Schuette
+- **Co-Founder**: Nate Schuette (CTO position open for hiring)
 - **Cost Savings**: 30-50% (vs traditional roofing)
 - **Average Project Value**: $500K - $1.5M
 - **Investment Required**: $1.0M (operations) + $1.5M (coating R&D)
@@ -13,8 +13,10 @@
   - Year 1: $10.0M revenue, $4.0M profit
   - Year 2: $18.5M revenue, $8.1M profit  
   - Year 3: $32.0M revenue, $15.4M profit
-- **ROI**: 400% Year 1, Initial ROI within 6 months
-- **Team Status**: Key positions open for hiring
+- **ROI**: 35-45% Year 1 (operations), 200-300% (R&D, 18-36 months)
+- **Contact**: Skcontractors2277@gmail.com, 440-694-2916
+- **Revenue Focus**: 75% roofing installations, 15% maintenance, future coating sales
+- **Team Status**: Key positions open for hiring (CTO, VP Operations, VP Sales, CFO, QA Head)
 
 ## Current Mock Data (Frontend Only)
 Located in `/app/frontend/src/data/mockPitchData.js`:
