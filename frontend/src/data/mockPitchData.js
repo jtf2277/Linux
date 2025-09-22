@@ -246,9 +246,15 @@ export const mockPitchData = {
         },
         {
           name: "Nate Schuette",
-          role: "CTO",
+          role: "Co-Founder",
           experience: "12+ years in materials engineering & technology",
           background: "Technical expert in coating development and engineering solutions"
+        },
+        {
+          name: "Position Open",
+          role: "CTO",
+          experience: "Seeking experienced candidate",
+          background: "Looking for technology leadership and system architecture"
         },
         {
           name: "Position Open",
