@@ -284,11 +284,13 @@ export const mockPitchData = {
       returns: "400% ROI Year 1",
       benefits: [
         "Equity stake in rapidly growing company",
-        "Board representation and strategic input",
-        "Preferred returns on investment",
-        "Exit opportunities within 5-7 years",
-        "Tax advantages through opportunity zones",
-        "ESG impact through energy-efficient solutions"
+        "Board representation and strategic input", 
+        "Initial ROI within 6 months of operations",
+        "Proprietary coating technology ownership",
+        "First-mover advantage in revolutionary coating market",
+        "ESG impact through energy-efficient solutions",
+        "Exit opportunities within 3-5 years",
+        "Tax advantages through R&D investments"
       ]
     },
     {
