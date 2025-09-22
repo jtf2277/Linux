@@ -307,7 +307,7 @@ export const mockPitchData = {
       subtitle: "Contact our team to learn more about this investment opportunity",
       email: "Skcontractors2277@gmail.com",
       phone: "440-694-2916",
-      location: "Dallas, TX"
+      location: "Cleveland, Ohio"
     }
   ]
 };
