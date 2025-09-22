@@ -162,7 +162,7 @@ export const mockPitchData = {
         }
       ],
       metrics: [
-        { label: "Average Project Value", value: "$125,000" },
+        { label: "Average Project Value", value: "$500K - $1.5M" },
         { label: "Gross Margin", value: "65%" },
         { label: "Customer Retention", value: "92%" },
         { label: "Installation Time", value: "3-5 days" },
