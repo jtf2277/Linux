@@ -142,24 +142,24 @@ export const mockPitchData = {
       subtitle: "Multiple revenue streams ensuring sustainable growth",
       revenueStreams: [
         {
-          name: "Installation Services",
-          description: "Direct coating application and installation",
-          percentage: "60%"
-        },
-        {
-          name: "Product Sales",
-          description: "Galaxy coating materials to contractors",
-          percentage: "25%"
+          name: "Roofing Installation Services",
+          description: "Primary revenue from traditional and coating installations",
+          percentage: "75%"
         },
         {
           name: "Maintenance Contracts",
           description: "Ongoing maintenance and inspection services",
-          percentage: "10%"
+          percentage: "15%"
         },
         {
-          name: "Consulting & Training",
-          description: "Technical consulting and contractor training programs",
-          percentage: "5%"
+          name: "Consulting Services",
+          description: "Technical consulting and project management",
+          percentage: "7%"
+        },
+        {
+          name: "Future Coating Sales",
+          description: "Galaxy coating products (post-development)",
+          percentage: "3%"
         }
       ],
       metrics: [
