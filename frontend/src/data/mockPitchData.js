@@ -88,7 +88,7 @@ export const mockPitchData = {
         {
           title: "Cost Reduction",
           description: "vs traditional roof replacement",
-          value: "70%",
+          value: "30-50%",
           icon: "dollar"
         }
       ],
