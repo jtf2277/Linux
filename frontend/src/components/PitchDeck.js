@@ -472,12 +472,19 @@ const InvestmentSlide = ({ data }) => (
       <h2 className="text-4xl font-bold text-slate-800 mb-4">{data.title}</h2>
       <p className="text-xl text-slate-600">{data.subtitle}</p>
     </div>
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
       <Card className="border-slate-200 bg-gradient-to-br from-blue-50 to-white">
         <CardContent className="p-8 text-center">
           <DollarSign className="w-12 h-12 text-blue-600 mx-auto mb-4" />
           <div className="text-3xl font-bold text-slate-800 mb-2">{data.amount}</div>
-          <div className="text-slate-600">Investment Required</div>
+          <div className="text-slate-600">Operations Investment</div>
+        </CardContent>
+      </Card>
+      <Card className="border-slate-200 bg-gradient-to-br from-purple-50 to-white">
+        <CardContent className="p-8 text-center">
+          <Zap className="w-12 h-12 text-purple-600 mx-auto mb-4" />
+          <div className="text-3xl font-bold text-slate-800 mb-2">$1.5M</div>
+          <div className="text-slate-600">Coating R&D Investment</div>
         </CardContent>
       </Card>
       <Card className="border-slate-200 bg-gradient-to-br from-green-50 to-white">
