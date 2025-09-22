@@ -468,6 +468,103 @@ const TeamSlide = ({ data }) => (
   </div>
 );
 
+const CoatingInvestmentSlide = ({ data }) => (
+  <div className="max-w-6xl mx-auto">
+    <div className="text-center mb-12">
+      <h2 className="text-4xl font-bold text-slate-800 mb-4">{data.title}</h2>
+      <p className="text-xl text-slate-600">{data.subtitle}</p>
+    </div>
+    
+    {/* Investment Overview */}
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+      <Card className="border-slate-200 bg-gradient-to-br from-purple-50 to-white">
+        <CardContent className="p-6 text-center">
+          <DollarSign className="w-10 h-10 text-purple-600 mx-auto mb-3" />
+          <div className="text-2xl font-bold text-slate-800 mb-1">{data.amount}</div>
+          <div className="text-slate-600">Investment Required</div>
+        </CardContent>
+      </Card>
+      <Card className="border-slate-200 bg-gradient-to-br from-green-50 to-white">
+        <CardContent className="p-6 text-center">
+          <TrendingUp className="w-10 h-10 text-green-600 mx-auto mb-3" />
+          <div className="text-2xl font-bold text-slate-800 mb-1">{data.returns}</div>
+          <div className="text-slate-600">Projected ROI</div>
+        </CardContent>
+      </Card>
+      <Card className="border-slate-200 bg-gradient-to-br from-blue-50 to-white">
+        <CardContent className="p-6 text-center">
+          <Calendar className="w-10 h-10 text-blue-600 mx-auto mb-3" />
+          <div className="text-2xl font-bold text-slate-800 mb-1">{data.timeline}</div>
+          <div className="text-slate-600">Development Timeline</div>
+        </CardContent>
+      </Card>
+    </div>
+
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      {/* Revenue Projections */}
+      <Card className="border-slate-200">
+        <CardContent className="p-6">
+          <h3 className="text-xl font-bold text-slate-800 mb-4">Galaxy Coatings Revenue Projections</h3>
+          <div className="space-y-4">
+            {data.revenueProjections.map((projection, index) => (
+              <div key={index} className="p-4 bg-slate-50 rounded-lg">
+                <div className="flex justify-between items-center mb-2">
+                  <span className="font-semibold text-slate-800">Year {projection.year}</span>
+                  <TrendingUp className="w-5 h-5 text-green-500" />
+                </div>
+                <div className="grid grid-cols-2 gap-4 text-sm mb-2">
+                  <div>
+                    <span className="text-slate-600">Revenue:</span>
+                    <span className="font-semibold ml-2">{projection.revenue}</span>
+                  </div>
+                  <div>
+                    <span className="text-slate-600">Profit:</span>
+                    <span className="font-semibold ml-2">{projection.profit}</span>
+                  </div>
+                </div>
+                <div className="text-xs text-slate-500">{projection.description}</div>
+              </div>
+            ))}
+          </div>
+        </CardContent>
+      </Card>
+
+      {/* Revenue Streams */}
+      <Card className="border-slate-200">
+        <CardContent className="p-6">
+          <h3 className="text-xl font-bold text-slate-800 mb-4">Coating Revenue Streams</h3>
+          <div className="space-y-4">
+            {data.coatingRevenueStreams.map((stream, index) => (
+              <div key={index} className="flex items-center justify-between p-3 bg-slate-50 rounded-lg">
+                <div>
+                  <div className="font-semibold text-slate-800">{stream.name}</div>
+                  <div className="text-sm text-slate-600">{stream.description}</div>
+                </div>
+                <div className="text-lg font-bold text-slate-800">{stream.percentage}</div>
+              </div>
+            ))}
+          </div>
+        </CardContent>
+      </Card>
+    </div>
+
+    {/* Development Milestones */}
+    <Card className="border-slate-200 mt-8">
+      <CardContent className="p-6">
+        <h3 className="text-xl font-bold text-slate-800 mb-4">Development Milestones</h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {data.developmentMilestones.map((milestone, index) => (
+            <div key={index} className="flex items-start gap-3">
+              <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" />
+              <span className="text-slate-700">{milestone}</span>
+            </div>
+          ))}
+        </div>
+      </CardContent>
+    </Card>
+  </div>
+);
+
 const InvestmentSlide = ({ data }) => (
   <div className="max-w-4xl mx-auto text-center">
     <div className="mb-12">
@@ -484,13 +581,13 @@ const InvestmentSlide = ({ data }) => (
           <div className="text-sm text-slate-500">6-12 months</div>
         </CardContent>
       </Card>
-      <Card className="border-slate-200 bg-gradient-to-br from-purple-50 to-white">
+      <Card className="border-slate-200 bg-gradient-to-br from-green-50 to-white">
         <CardContent className="p-8 text-center">
-          <Zap className="w-12 h-12 text-purple-600 mx-auto mb-4" />
-          <div className="text-3xl font-bold text-slate-800 mb-2">$1.5M</div>
-          <div className="text-slate-600 mb-3">Coating R&D Investment</div>
-          <div className="text-lg font-semibold text-purple-600">200-300% ROI</div>
-          <div className="text-sm text-slate-500">18-36 months</div>
+          <TrendingUp className="w-12 h-12 text-green-600 mx-auto mb-4" />
+          <div className="text-3xl font-bold text-slate-800 mb-2">Fast ROI</div>
+          <div className="text-slate-600 mb-3">Quick Returns</div>
+          <div className="text-lg font-semibold text-green-600">6-12 Months</div>
+          <div className="text-sm text-slate-500">to initial returns</div>
         </CardContent>
       </Card>
     </div>
