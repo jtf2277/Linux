@@ -219,9 +219,9 @@ export const mockPitchData = {
       title: "Financial Projections",
       subtitle: "Strong growth trajectory with attractive returns",
       projections: [
-        { year: 1, revenue: "$2.8M", profit: "$420K" },
-        { year: 2, revenue: "$6.2M", profit: "$1.1M" },
-        { year: 3, revenue: "$12.5M", profit: "$2.8M" }
+        { year: 1, revenue: "$10.0M", profit: "$4.0M" },
+        { year: 2, revenue: "$18.5M", profit: "$8.1M" },
+        { year: 3, revenue: "$32.0M", profit: "$15.4M" }
       ],
       useOfFunds: [
         { category: "Equipment & Technology", percentage: "35%" },
