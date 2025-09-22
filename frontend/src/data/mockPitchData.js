@@ -238,40 +238,40 @@ export const mockPitchData = {
       subtitle: "Experienced professionals driving innovation in roofing solutions",
       members: [
         {
-          name: "Michael Rodriguez",
+          name: "Jake Facer",
           role: "CEO & Founder",
           experience: "15+ years in commercial construction",
-          background: "Former VP at Regional Roofing Corp, MBA from State University"
+          background: "Visionary leader with extensive roofing industry expertise"
         },
         {
-          name: "Sarah Chen",
+          name: "Nate Schuette",
           role: "CTO",
-          experience: "12+ years in materials engineering",
-          background: "PhD in Chemical Engineering, 8 patents in coating technology"
+          experience: "12+ years in materials engineering & technology",
+          background: "Technical expert in coating development and engineering solutions"
         },
         {
-          name: "David Thompson",
+          name: "Position Open",
           role: "VP of Operations",
-          experience: "20+ years in project management",
-          background: "Former Operations Director at BuildTech Solutions"
+          experience: "Seeking experienced candidate",
+          background: "Looking for 15+ years project management experience"
         },
         {
-          name: "Jennifer Adams",
+          name: "Position Open",
           role: "VP of Sales",
-          experience: "18+ years in B2B sales",
-          background: "Former Regional Sales Manager at Construction Materials Inc"
+          experience: "Seeking experienced candidate",
+          background: "Looking for 15+ years B2B sales experience in construction"
         },
         {
-          name: "Robert Kim",
+          name: "Position Open",
           role: "CFO",
-          experience: "14+ years in finance",
-          background: "Former Finance Director at GreenTech Ventures, CPA"
+          experience: "Seeking experienced candidate",
+          background: "Looking for finance leader with construction industry experience"
         },
         {
-          name: "Lisa Martinez",
+          name: "Position Open",
           role: "Head of Quality Assurance",
-          experience: "10+ years in quality control",
-          background: "Former QA Manager at Advanced Materials Corp"
+          experience: "Seeking experienced candidate",
+          background: "Looking for quality control expert in coating/materials"
         }
       ]
     },
