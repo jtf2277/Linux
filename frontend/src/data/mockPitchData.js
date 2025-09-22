@@ -93,12 +93,13 @@ export const mockPitchData = {
         }
       ],
       advantages: [
+        "Proprietary coating formulation in development",
         "Seamless application over existing roofing materials",
-        "Weather-resistant and UV-stable formulation",
-        "Reduces roof surface temperature by up to 50°F",
+        "Weather-resistant and UV-stable technology design",
+        "Target: Reduce roof surface temperature by up to 50°F",
         "Environmentally friendly and sustainable solution",
         "Fast installation with minimal business disruption",
-        "Improves building comfort and indoor air quality"
+        "Will improve building comfort and indoor air quality"
       ]
     },
     {
